@@ -1,0 +1,1000 @@
+be:ser
+by:por conducto de
+report:informe
+state:estado
+country:estado
+also:también
+provide:proporcionar
+all:todo
+development:intensificación
+other:otro
+programme:programar
+child:muchacho
+resolution:establecimiento
+committee:comité
+international:organización internacional
+right:enderezar
+government:gobierno
+make:marca
+woman:fémina
+party:festejo
+support:subsistencia
+work:empleo
+such:semejante
+have:rico
+meeting:asamblea
+issue:tema
+information:dato
+session:sesión
+implementation:diligenciamiento
+use:valer
+human right:derechos humanos
+member:matriculado
+activity:actividad
+article:reportaje
+organization:asociación
+measure:tamaño
+convention:tratado
+take:agarrar
+against:por encima de
+person:persona
+level:grado
+ensure:garantir
+secretary-general:secretario general
+need:requerir
+general assembly:asamblea parlamentaria
+between:en medio de
+through:por entre
+policy:política
+continue:proseguir
+request:demanda
+system:ruta
+area:área
+service:servicio
+paragraph:párrafo
+law:decreto
+action:litigar
+new:nuevo
+any:ningún
+cooperation:cooperación
+case:evento
+note:ayuda memoria
+special:oferta especial
+establish:establecer
+people:gente
+more:adjunto
+group:aglomerar
+representative:representante
+decision:convencimiento
+year:añada
+resource:recurso
+include:incluir
+regional:regional
+office:oficina
+consider:ver
+process:procesamiento
+adopt:adoptar
+recommendation:recomendación
+review:repasar
+assistance:auxilio
+social:social
+further:adjunto
+provision:cebado
+address:señas
+result:resultado final
+protection:salvaguarda
+mission:sacerdocio
+security:seguridad
+hold:empuñar
+commission:comisión
+within:dentro de
+during:durante
+situation:situación
+project:empresa
+period:espacio de tiempo
+two:dos
+implement:hacer efectivo
+conference:conferencia
+but:sino que
+relevant:pertinente
+increase:acrecentar
+no:ningún
+education:enseñanza
+capacity:porte
+promote:promover
+only:único
+c:centígrado
+mr.:caballero
+economic:económico
+act:acción humana
+present:presente
+delegation:representación
+document:documento
+part:cuota
+submit:someter
+develop:adelantar
+general:general
+require:requerir
+relate:asociar
+give:flexibilidad
+council:junta
+training:entrenamiento
+view:campo visual
+first:primer
+secretariat:secretariado
+political:político
+concern:convenir
+access:entrada
+staff:efectivo
+agreement:confederación
+procedure:procesamiento
+financial:fiscal
+number:n.°
+budget:presupuesto
+management:gestión
+region:territorio
+in order to:con el fin de
+institution:administración pública
+community:comunidad
+role:función pública
+legal:jurídico
+body:estampa
+rule:principio
+family:familia
+effective:virtuoso
+about:cosa de
+plan:planificación
+president:presidenta
+strengthen:robustecer
+health:estado general
+framework:armazón
+peace:paz
+form:aspecto
+strategy:estrategia
+operation:prestación
+see:ver
+some:cosa de
+where:en dónde
+one:uno
+contain:esconder
+discrimination:discrimen
+conflict:oposición
+mechanism:mecanismo
+receive:recibir
+population:ciudadanía
+principle:constitutivo
+improve:mejorar
+following:acechanza
+technical:técnico
+base:basa
+important:importante
+question:interrogante
+appropriate:apropiar
+global:mundial
+basis:base
+practice:práctica
+gender:sexualidad
+violence:imposición
+respect:contemplación
+necessary:necesario
+cost:precio
+consideration:aquilatamiento
+treaty:tratado
+so:sol
+society:club
+fund:fondos
+related:inherente
+achieve:procurar
+public:auditorio
+progress:adelanto
+call:llamada
+court:juzgado
+agency:agencia
+before:antes
+force:fuerza
+statement:expresión
+express:expreso
+problem:cuestión
+approach:acercamiento
+matter:pesar
+time:horario
+field:llanura
+recommend:recomendar
+individual:individuo
+developing country:país subdesarrollado
+high:alto
+three:tres
+specific:pormenor
+working group:equipo de trabajo
+agenda:agenda
+available:disponible
+both:ambos
+responsibility:responsabilidad
+while:trecho
+post:poste
+commitment:obligación
+end:fondo
+victim:perjudicado
+world:globo terráqueo
+aim:destino
+conduct:proceder
+remain:quedar
+item:elemento
+contribution:aportación
+violation:contravención
+local:tópico
+obligation:compromiso
+expert:experto
+section:cuota
+various:respectivo
+subject:tema
+change:evolución
+legislation:ordenamiento jurídico
+date:fecha
+participation:participación
+good:próspero
+proposal:propuesta
+consultation:debate
+place:disponer
+encourage:reanimar
+welcome:bienvenido
+establishment:cimentación
+condition:condiciones
+rapporteur:relator
+possible:posible
+declaration:denuncia
+do:do
+protocol:educación
+civil:cívico
+focus:énfasis
+building:inmueble
+objective:destino
+importance:importancia
+goal:objetivo
+years:edad
+additional:adjunto
+purpose:intención
+data:dato
+in particular:en particular
+challenge:desafío
+concerning:a propósito de
+impact:impacto
+poverty:pobreza
+priority:superioridad
+trade:comercio
+concerned:preocupado
+meet:citar
+decide:decretar
+para:paracaidista
+amount:cuantía
+annex:anexionar
+standard:parámetro
+total:total
+current:corriente
+context:contextura
+no.:n.°
+prevent:impedir
+official:facultativo
+assessment:valoración
+sector:segmentar
+application:pedimento
+prepare:aparejar
+police:policía nacional
+status:condiciones
+control:control
+adoption:adopción
+coordination:coordinación
+identify:identificar
+benefit:beneficio
+apply:pedir
+human:persona
+refugee:refugiado
+response:contesta
+recognize:identificar
+crime:crimen
+undertake:atrever
+same:igualado
+humanitarian:filántropo
+contribute:contribuir
+technology:tecnología
+towards:en dirección a
+opportunity:oportunidad
+comprehensive:comprensivo
+requirement:requisito
+discussion:debate
+environment:biota
+attention:atención
+enhance:optimizar
+authority:potestad
+territory:territorio
+administrative:administrativo
+participate:intervenir
+major:mayor
+carry out:consumar
+reform:reforma
+international community:comunidad internacional
+position:postura
+list:lista
+monitor:pantalla
+agree:coincidir
+indicate:señalar
+help:auxilio
+effect:resultado final
+protect:resguardar
+refer:remitir
+interest:interés
+way:manera
+military:fuerza armada
+s:segundo
+especially:especialmente
+second:segundo
+entitle:autorizar
+justice:justicia
+therefore:por ende
+permanent:permanente
+school:centro escolar
+lead:comandancia
+reduce:empequeñecer
+personnel:efectivo
+commit:afanar
+cover:cubrimiento
+cultural:cultural
+study:estudio
+wish:deseo
+claim:reivindicación
+create:crear
+instrument:instrumento
+future:futuro
+torture:torturar
+a number of:múltiple
+regulation:regulado
+existing:subsistente
+particular:especial
+affect:apego
+reflect:plasmar
+become:hacer
+board:tabla
+centre:abismo
+seek:buscar
+term:palabra
+allow:consentir
+prevention:prevención
+assembly:ensamblaje
+promotion:ascenso
+fully:a cabalidad
+now:presente
+treatment:tratamiento
+above:dicho
+follow:seguir
+age:edad
+cause:proporcionar
+inform:informar
+third:tercio
+day:día natural
+lack:pecar
+ministry:departamento ministerial
+experience:experiencia
+combat:conflicto
+constitution:constitución
+reduction:merma
+propose:proponer
+authorities:gobierno
+transfer:transferencia
+different:desigual
+function:funcionalidad
+disability:invalidez
+with regard to:en orden a
+equality:igualdad
+dialogue:diálogo
+responsible:juicioso
+several:múltiple
+covenant:concordato
+partnership:asociación
+risk:demasía
+however:de cualquier modo
+civilian:paisano
+partner:pareja
+environmental:ambiental
+bring:comportar
+recent:reciente
+maintain:mantener
+account:relato
+fact:hecho
+exercise:entrenar
+organize:organizar
+regular:cliente
+how:manera
+outcome:resultado final
+evaluation:calificación de riesgo
+main:tierra firme
+guideline:directriz
+still:sosegar
+arrangement:disposición
+administration:gestión
+step:medida cautelar
+land:tierra
+key:llave
+significant:importante
+guarantee:confirmación
+very:en gran manera
+language:lenguaje
+show:show
+officer:oficial
+raise:mejora salarial
+order:ordenación
+armed:armado
+investment:inversión
+peacekeeping:pacificación
+tribunal:juzgado
+investigation:averiguación
+aspect:carácter
+citizen:ciudadano
+sign:signo
+complete:completar
+detention:pena de prisión
+certain:seguro
+worker:empleado
+reach:alcance
+own:disponer
+represent:simbolizar
+rate:tarifa
+due:devengado
+invite:invitar
+increased:incrementado
+five:cinco
+serious:serio
+judge:juez
+food:comida
+pay:salario
+introduce:presentar
+approve:enaltecer
+production:generación
+material:material
+sustainable development:desarrollo sostenible
+find:atinar
+preparation:preparación
+joint:articulación
+take into account:tener en cuenta
+four:cuatro
+common:parque
+equipment:equipamiento
+share:cota
+awareness:conciencia
+disarmament:desarme
+visit:visita
+target:punto de mira
+operational:operatorio
+unit:unidad
+entity:ente
+financing:financiación
+like:placer
+biennium:bienio
+return:retorno
+already:ya
+previous:delantero
+member state:estado miembro
+election:consulta electoral
+offence:crimen
+source:reencontrar
+life:sobrevivencia
+determine:determinar
+author:escritor
+serve:saco
+planning:planificación
+design:anteproyecto
+analysis:análisis
+estimate:tanteo
+face:rostro
+comment:comento
+deal:operación mercantil
+chairman:presidente del consejo de administración
+free:liberar
+reporting:crónica
+economy:economía
+independent:independiente
+income:recurso propio
+strategic:estratégico
+record:dato
+forum:lugar de encuentro
+basic:básico
+former:constructor
+letter:misiva
+research:investigación
+appeal:gracia
+currently:de momento
+threat:discrimen
+reference:consulta
+needs:necesario
+conclusion:convencimiento
+text:texto
+stress:ansia
+reason:motivo
+discuss:discutir
+vote:votación
+panel:témpano
+performance:interpretación
+criminal:malhechor
+minority:minoría
+grant:otorgamiento de subsidios
+offer:propuesta
+play:pasatiempo
+observer:argos
+elimination:eliminación
+line:raya
+value:justipreciar
+set:tren
+workshop:taller
+drug:fármaco
+domestic:servidor
+thus:por ende
+clear:dilucidar
+connection:interconexión
+direct:organizar
+water:agua dulce
+settlement:establecimiento
+evidence:demostrar
+ms.:códex
+sexual:sexual
+expenditure:egreso
+terrorism:terrorismo
+donor:dador
+solution:resolución
+up:pujar
+element:constituyente
+nature:fuerza natural
+care:importar
+essential:requisito
+extend:ir
+believe:estar
+small:mermar
+potential:virtualidad
+indigenous:autóctono
+constitute:constituir
+integration:asentamiento
+team:cuadrilla
+department:fiscalía
+weapon:arma
+indigenous people:pueblo indígena
+another:otro
+live:existir
+communication:comunicación
+racial:racial
+migrant:migrante
+even:tarde
+conclude:clausurar
+overall:en conjunto
+engage:extremar
+crisis:crisis
+manner:guisa
+close:entornar
+hope:esperanza
+equal:igual
+below:debajo
+open:reabrir
+professional:profesionista
+international law:derecho internacional
+observation:observación
+trafficking:tráfico
+iii:tres
+contract:abreviado
+take place:devenir
+infrastructure:infraestructura
+expect:aguardar
+indicator:índice
+knowledge:conocimientos
+amendment:enmienda
+able:seguro
+will:voluntad
+integrated:unificado
+foreign:foráneo
+annual:aniversario
+compliance:conformidad
+structure:estructura
+complaint:reclamo
+emphasize:tarjar
+method:ruta
+exchange:intercambio
+often:con frecuencia
+link:interconexión
+private:soldado raso
+network:red
+improvement:mejoramiento
+ask:preguntar
+six:seis
+facilities:instalación
+factor:constituyente
+type:especie
+next:posterior
+enter:entrar
+multilateral:multilateral
+youth:flor de la vida
+leave:baja
+task:tarea
+category:categoría
+participant:partícipe
+market:mercado
+limited:limitado
+informal:informal
+duty:servicio
+nuclear weapon:arma nuclear
+obtain:granjear
+set out:meter
+substantive:sustancial
+yet:aun
+nuclear:atómico
+property:predio
+build:talla
+culture:cultura
+achievement:cumplimiento
+define:definir
+final:último
+chair:silla
+course:sucesión
+respond:responder
+assess:tomar en cuenta
+recall:memorar
+month:mes
+quality:cualidad
+know:entender
+suggest:asesorar
+past:pasado
+stakeholder:accionista
+jurisdiction:función jurisdiccional
+demand:exigencia
+business:empleo
+speak:hablar
+component:elemento
+prison:penitenciaría
+movement:movimiento
+range:gama
+governance:gobernación
+central:céntrico
+maintenance:trabajos de mantenimiento
+young:juventud
+finance:financiar
+judicial:contencioso
+throughout:durante
+high commissioner:alto comisario
+emergency:emergencia
+fundamental:esencial
+export:exportar
+understanding:clemente
+tool:herramienta
+early:primero
+effectively:eficazmente
+begin:iniciar
+trial:procedimiento judicial
+optional:opcional
+event:evento
+opinion:fama
+produce:hacer
+mention:alusión
+men:pantalones
+positive:positivo
+international organization:organización internacional
+payment:pago
+legislative:legislativo
+abuse:vejación
+association:asociación
+private sector:sector privado
+sentence:frase
+debate:argumentación
+table:mesa
+vulnerable:pasible
+loss:renuncia
+communications:comunicaciones
+universal:universales
+decade:década
+point:punto
+attack:atentado
+broad:globalizante
+safety:seguro
+growth:ensanche
+supply:proporcionar
+strong:robusto
+prior:abate
+regime:régimen
+internal:intestino
+f:flúor
+arrest:arresto
+examine:reconocer
+attend:frecuentar
+put:disponer
+impose:endosar
+wide:ancho
+collaboration:cooperación
+travel:viaje
+although:por más que
+proceeding:procedimiento
+draw:empate
+then:en lo sucesivo
+effectiveness:efectividad
+terms:precio
+consensus:séquito
+mean:significar
+publication:publicación
+poor:menesteroso
+exploitation:delito de explotación
+scope:ámbito
+intend:nombrar
+initial:inicial
+balance:colgar
+art.:reportaje
+ground:tierra firme
+fifty:cincuenta
+medical:facultativo
+head:torcer
+compensation:estipendio
+rural:rústico
+transition:paso
+extent:entidad
+consequence:resultado final
+religious:pío
+accept:recibir
+reaffirm:reafirmar
+reiterate:repetir
+primary:primario
+transport:portear
+little:poco
+alternative:alternativo
+plenary:colegial
+physical:arrollador
+host:anfitrión
+delivery:otorgamiento
+accord:tratado
+climate change:cambios del clima
+coordinate:coordinar
+stage:grado
+border:margen
+student:estudiante
+model:maqueta
+describe:retratar
+prohibit:prohibir
+independence:independencia
+limit:limitar
+exist:existir
+critical:crítico
+option:opción
+directly:en seguida
+chapter:capítulo
+active:voz activa
+for example:por ejemplo
+circumstances:circunstancia
+highlight:sombrear
+arise:alzamiento
+transmit:difundir
+applicable:aplicativo
+peaceful:pacífico
+possibility:probabilidad
+survey:ver
+funding:cobertura
+trend:tendencia
+send:expedir
+distribution:distribución
+relationship:relación
+minor:muchacho
+charge:precio
+strengthening:revigorización
+seminar:seminario
+appreciation:comprensión
+difficult:complejo
+keep:vida
+amend:enmendar
+similar:similar
+contact:contacto
+eliminate:eliminar
+external:externo
+minister:ministro
+cooperate:cooperar
+well:pozo
+core:alma
+campaign:campaña política
+release:libramiento
+ethnic:étnico
+summary:compendio
+budgetary:presupuestal
+dispute:oposición
+code:código
+educational:instructivo
+media:medios de masas
+health care:sistema de atención sanitaria
+sanction:sanción
+delay:atraso
+start:estreno
+outside:exterior
+come:venir
+definition:definición
+headquarters:comandancia
+occur:devenir
+appear:presentar
+disaster:desgracia
+parents:padres
+organ:órgano
+either:tampoco
+majority:mayor parte
+associate:socio
+criteria:parámetro
+island:isla
+reservation:reservación
+fifth:quinto
+company:sociedad de capital
+requirements:necesario
+respective:respectivo
+product:producto necesario
+intergovernmental:intergubernamental
+punishment:escarmiento
+rehabilitation:rehabilitación
+fulfil:consumar
+temporary:trabajador temporero
+incorporate:unificado
+at least:a lo menos
+implication:mensaje
+regard:precaución
+man:pantalones
+practical:práctico
+home:vivienda
+enterprise:empresa
+labour:clase obrera
+operate:intervenir
+great:crecido
+concept:idea
+expand:extender
+forward:delantero
+consistent:consiguiente
+manage:amañar
+appoint:instituir
+reply:contesta
+death:expiración
+rather:sino
+set up:erigir
+perform:hacer
+detailed:detallado
+safeguard:acoger
+space:espacio
+statistics:estadística
+actor:actor
+stability:estabilidad
+efficiency:eficiencia
+observe:notar
+avoid:rehuir
+fight:pugna
+resolve:resolución
+goods:fruto
+out:salir
+industry:industria
+minimum:mínimo
+traditional:tradicional
+add:anexar
+g:gramo
+parliament:parlamento
+advice:consejo
+update:actualizar
+war:guerra
+just:justar
+south:sur
+medium:medio
+democratic:gentilicio
+sufficient:bastante
+months:larga data
+procurement:retén
+prosecution:procedimiento
+presence:asistencia
+relation:relación
+permit:licencia
+deliver:alumbrar
+week:semana
+convene:reunir
+phase:fase
+corruption:rotura
+difficulty:complejidad
+large:maño
+female:fémina
+despite:pisoteo
+rule of law:principio de legalidad
+forest:selva
+construction:edificación
+iv:cuatro
+debt:débito
+damage:daño
+recently:desde poco
+initiate:primerizo
+nationality:nacionalidad
+please:deleitar
+example:ejemplo
+millennium:milenario
+topic:tema
+illegal:ilegítimo
+involvement:involucración
+religion:religión
+around:en torno a
+formal:formal
+endorse:endosar
+continued:continuado
+publish:editar
+energy:nervio
+appointment:cita
+attempt:ensayo
+affair:evento
+owe:caber
+chemical:químico
+secure:sujetar
+violate:transgredir
+schedule:agenda
+investigate:expedientar
+coordinator:coordinador
+rise:subir
+transparency:trasparencia
+suffer:padecer
+entry:entrada
+demonstrate:demostrar
+advance:mejoramiento
+authorize:autorizar
+separate:separar
+move:apartar
+take note:apuntar
+ratification:ratificación
+few:poco
+witness:testigo
+democracy:democracia
+paper:papel
+word:palabra
+nation:estado
+intervention:intervención
+illicit:clandestino
+restriction:condicionamiento
+successful:exitoso
+average:media
+leadership:comandancia
+terrorist:terrorista
+prisoner:preso
+decrease:merma
+recognition:reconocimiento
+together with:en unión de
+perspective:aspecto
+absence:ausencia
+name:denominación
+substance:materia
+documentation:documentación
+voluntary:espontáneo
+compare:confrontar
+deployment:despliegue
+approval:ensalzamiento
+chairperson:presidente del consejo de administración
+registration:matriculación
+candidate:aspirante
+comply:valer
+today:hoy
+incident:evento
+sponsor:auspiciar
+sixty:sesenta
+because of:a causa de
+prosecutor:fiscal
+director:director general
+determination:constancia
+outline:sinopsis
+statute:estatuto
+allegation:acusación
+ninth:nono
+resident:poblador
+vehicle:vehículo
+commercial:spot
+agricultural:agrícola
+expression:formulación
+city:ciudad
+teacher:didáctico
+recovery:reposición
+displaced person:evacuado
+gap:abertura
+register:registro
+fall:caer
+defence:defensa
+theme:tema
+comprise:contener
+success:hit
+institute:instituto
+occupation:empleo
+explain:definir
+better:mejorar
+adolescent:chico
+employee:oficinista
+closely:a marchas forzadas
