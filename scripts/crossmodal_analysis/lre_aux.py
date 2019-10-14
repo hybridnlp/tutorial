@@ -18,6 +18,9 @@ import pickle
 
 def get_captions(list_captions_tokens, list_captions_synsets):
     MAX_SEQ_LEN = 1000
+
+    captions_tokens = []
+    captions_synsets = []
     
     with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
         tokenizer_tokens = pickle.load(handle)
