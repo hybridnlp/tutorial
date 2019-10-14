@@ -14,8 +14,15 @@ from keras.utils import plot_model
 import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
+import pickle
 
 def get_model():
+    with open('./tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
+        tokenizer_tokens = pickle.load(handle)
+
+    with open('./tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
+        tokenizer_synsets = pickle.load(handle)
+    
     EMB_FILE = "./tutorial/datasamples/scigraph_wordnet.tsv"
     DIM = 100
 
