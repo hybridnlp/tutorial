@@ -44,6 +44,7 @@ def get_model():
     
     EMB_FILE = "./tutorial/datasamples/scigraph_wordnet.tsv"
     DIM = 100
+    MAX_SEQ_LEN = 1000
 
     file = open(EMB_FILE, "r", encoding="utf-8", errors="surrogatepass")
     embeddings_index_tokens = {}
