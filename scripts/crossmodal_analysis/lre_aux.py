@@ -32,10 +32,7 @@ def get_captions(list_captions_tokens, list_captions_synsets):
     captions_synsets.append(data_text)
     return captions_tokens, captions_synsets
 
-print("SIZE OF TOKENS VOCABULARY: " + str(len(tokenizer_tokens.word_index)))
-print("SIZE OF SYNSETS VOCABULARY: " + str(len(tokenizer_synsets.word_index)))
-print("SHAPE OF TOKENS SEQUENCES: " + str(np.shape(captions_tokens)))
-print("SHAPE OF SYNSETS SEQUENCES: " + str(np.shape(captions_synsets)))
+
 def get_model():
     with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
         tokenizer_tokens = pickle.load(handle)
