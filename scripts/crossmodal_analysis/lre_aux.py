@@ -42,6 +42,8 @@ def get_model():
 
     with open('tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
         tokenizer_synsets = pickle.load(handle)
+
+    tokenizers = [tokenizer_tokens, tokenizer_synsets]
     
     EMB_FILE = "./tutorial/datasamples/scigraph_wordnet.tsv"
     DIM = 100
