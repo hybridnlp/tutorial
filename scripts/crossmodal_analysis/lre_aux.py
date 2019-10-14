@@ -16,11 +16,31 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 import pickle
 
-def get_model():
-    with open('./tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
+def get_captions(list_captions_tokens, list_captions_synsets):
+    with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
         tokenizer_tokens = pickle.load(handle)
 
-    with open('./tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
+    with open('tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
+        tokenizer_synsets = pickle.load(handle)
+
+    sequences = tokenizer_tokens.texts_to_sequences(list_captions_tokens)
+    data_text = pad_sequences(sequences, maxlen=MAX_SEQ_LEN, padding="post", truncating="post")
+    captions_tokens.append(data_text)
+
+    sequences = tokenizer_synsets.texts_to_sequences(list_captions_synsets)
+    data_text = pad_sequences(sequences, maxlen=MAX_SEQ_LEN, padding="post", truncating="post")
+    captions_synsets.append(data_text)
+    return captions_tokens, captions_synsets
+
+print("SIZE OF TOKENS VOCABULARY: " + str(len(tokenizer_tokens.word_index)))
+print("SIZE OF SYNSETS VOCABULARY: " + str(len(tokenizer_synsets.word_index)))
+print("SHAPE OF TOKENS SEQUENCES: " + str(np.shape(captions_tokens)))
+print("SHAPE OF SYNSETS SEQUENCES: " + str(np.shape(captions_synsets)))
+def get_model():
+    with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
+        tokenizer_tokens = pickle.load(handle)
+
+    with open('tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
         tokenizer_synsets = pickle.load(handle)
     
     EMB_FILE = "./tutorial/datasamples/scigraph_wordnet.tsv"
