@@ -15,6 +15,7 @@ import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 import pickle
+import tensorflow as tf
 
 
 def get_captions(list_captions_tokens, list_captions_synsets):
@@ -127,6 +128,30 @@ def get_model():
     model.load_weights("model_weights_BIG.h5")
 
     return modelFigures, modelCaptions, model
+
+def similarity(x):
+    return tf.matmul(x[0],x[1], transpose_a=True)
+
+def output_similarity(input_shape):
+    return (input_shape[0][0], input_shape[0][2], input_shape[1][2])
+
+def reduce_max_layer(x):
+    return tf.reduce_max(x, axis=2, keepdims=True)
+
+def output_reduce_max_layer(input_shape):
+    return (input_shape[0], input_shape[1], 1)
+
+def answerer(x):
+    return tf.multiply(x[1], x[0])
+
+def output_answerer(input_shape):
+    return (input_shape[1][0], input_shape[1][1], input_shape[1][2])
+
+def reduce_sum_layer(x):
+    return tf.reduce_sum(x, axis=2, keepdims=True)
+
+def output_reduce_sum_layer(input_shape):
+    return (input_shape[0], input_shape[1], 1)
 
 def get_TQAmodel(dim,emb_tok,emb_syn, dout,rdout, tokenizers, max_lens):
     vocab_sizes = [len(x.word_index)+1 for x in tokenizers]
