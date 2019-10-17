@@ -129,7 +129,7 @@ def get_model():
     return modelFigures, modelCaptions, model
 
 def get_TQAmodel(dim,emb_tok,emb_syn, dout,rdout, tokenizers, max_lens):
-    vocab_sizes = [len(x.word_index) for x in tokenizers]
+    vocab_sizes = [len(x.word_index)+1 for x in tokenizers]
 
     M_scratch_input = Input(shape = (max_lens[0],), name="M_scratch_input")
     M_tokens_input = Input(shape = (max_lens[0],), name="M_tokens_input")
