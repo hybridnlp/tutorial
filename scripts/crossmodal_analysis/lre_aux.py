@@ -127,3 +127,137 @@ def get_model():
 
     return modelFigures, modelCaptions, model
 
+def get_TQAmodel(dim,emb_tok,emb_syn, dout,rdout, tokenizers, max_lens):
+    vocab_sizes = [len(tokenizers[x].word_index) for x in tokenizers]
+
+    M_scratch_input = Input(shape = (max_lens[0],), name="M_scratch_input")
+    M_tokens_input = Input(shape = (max_lens[0],), name="M_tokens_input")
+    M_synsets_input = Input(shape = (max_lens[0],), name="M_synsets_input")
+    U_scratch_input = Input(shape = (max_lens[1],), name="U_scratch_input")
+    U_tokens_input = Input(shape = (max_lens[1],), name="U_tokens_input")
+    U_synsets_input = Input(shape = (max_lens[1],), name="U_synsets_input")
+    C1_scratch_input = Input(shape = (max_lens[2],), name="C1_scratch_input")
+    C1_tokens_input = Input(shape = (max_lens[2],), name="C1_tokens_input")
+    C1_synsets_input = Input(shape = (max_lens[2],), name="C1_synsets_input")
+    C2_scratch_input = Input(shape = (max_lens[3],), name="C2_scratch_input")
+    C2_tokens_input = Input(shape = (max_lens[3],), name="C2_tokens_input")
+    C2_synsets_input = Input(shape = (max_lens[3],), name="C2_synsets_input")
+    C3_scratch_input = Input(shape = (max_lens[4],), name="C3_scratch_input")
+    C3_tokens_input = Input(shape = (max_lens[4],), name="C3_tokens_input")
+    C3_synsets_input = Input(shape = (max_lens[4],), name="C3_synsets_input")
+    C4_scratch_input = Input(shape = (max_lens[5],), name="C4_scratch_input")
+    C4_tokens_input = Input(shape = (max_lens[5],), name="C4_tokens_input")
+    C4_synsets_input = Input(shape = (max_lens[5],), name="C4_synsets_input")
+
+    modelMF = Sequential()
+    modelMF.add(InputLayer(input_shape=(512,), name="input_MF"))
+    modelMF.add(Dense(256, activation="tanh", name="perceptron_MF_1"))
+    modelMF.add(Dense(dim, activation="tanh", name="perceptron_MF_2"))
+    modelMF.add(Reshape((dim, 1,), name="reshape_MF"))
+    modelUF = Sequential()
+    modelUF.add(InputLayer(input_shape=(512,), name="input_UF"))
+    modelUF.add(Dense(256, activation="tanh", name="perceptron_UF_1"))
+    modelUF.add(Dense(dim, activation="tanh", name="perceptron_UF_2"))
+    modelUF.add(Reshape((dim, 1,), name="reshape_UF"))
+
+    embedding_scratch_layer = Embedding(vocab_sizes[0], dim, embeddings_initializer="uniform", trainable=True)
+    embedding_tokens_layer = Embedding(vocab_sizes[0], dim, weights = [emb_tok], trainable = False)
+    embedding_synsets_layer = Embedding(vocab_sizes[1], dim, weights = [emb_syn], trainable = False)
+
+    M_scratch_input_embedded = embedding_scratch_layer(M_scratch_input)
+    M_tokens_input_embedded = embedding_tokens_layer(M_tokens_input)
+    M_synsets_input_embedded = embedding_synsets_layer(M_synsets_input)
+    U_scratch_input_embedded = embedding_scratch_layer(U_scratch_input)
+    U_tokens_input_embedded = embedding_tokens_layer(U_tokens_input)
+    U_synsets_input_embedded = embedding_synsets_layer(U_synsets_input)
+    C1_scratch_input_embedded = embedding_scratch_layer(C1_scratch_input)
+    C1_tokens_input_embedded = embedding_tokens_layer(C1_tokens_input)
+    C1_synsets_input_embedded = embedding_synsets_layer(C1_synsets_input)
+    C2_scratch_input_embedded = embedding_scratch_layer(C2_scratch_input)
+    C2_tokens_input_embedded = embedding_tokens_layer(C2_tokens_input)
+    C2_synsets_input_embedded = embedding_synsets_layer(C2_synsets_input)
+    C3_scratch_input_embedded = embedding_scratch_layer(C3_scratch_input)
+    C3_tokens_input_embedded = embedding_tokens_layer(C3_tokens_input)
+    C3_synsets_input_embedded = embedding_synsets_layer(C3_synsets_input)
+    C4_scratch_input_embedded = embedding_scratch_layer(C4_scratch_input)
+    C4_tokens_input_embedded = embedding_tokens_layer(C4_tokens_input)
+    C4_synsets_input_embedded = embedding_synsets_layer(C4_synsets_input)
+    M_input_embedded = Add()([M_scratch_input_embedded, M_tokens_input_embedded, M_synsets_input_embedded])
+    U_input_embedded = Add()([U_scratch_input_embedded, U_tokens_input_embedded, U_synsets_input_embedded])
+    C1_input_embedded = Add()([C1_scratch_input_embedded, C1_tokens_input_embedded, C1_synsets_input_embedded])
+    C2_input_embedded = Add()([C2_scratch_input_embedded, C2_tokens_input_embedded, C2_synsets_input_embedded])
+    C3_input_embedded = Add()([C3_scratch_input_embedded, C3_tokens_input_embedded, C3_synsets_input_embedded])
+    C4_input_embedded = Add()([C4_scratch_input_embedded, C4_tokens_input_embedded, C4_synsets_input_embedded])
+
+    LSTM_layer = LSTM(units=dim, return_sequences=True, name="lstm_layer", dropout=dout, recurrent_dropout=rdout)
+
+    M_input_encoded = LSTM_layer(M_input_embedded)
+    M_input_encoded = Permute((2, 1), input_shape=(max_lens[0], dim,), name="M_permute")(M_input_encoded)
+    modelM = Model([M_scratch_input,M_tokens_input,M_synsets_input], M_input_encoded)
+    modelInMMF = Concatenate(name="concatenateMMF")([modelM.output, modelMF.output])
+    modelMMF = Model([M_scratch_input, M_tokens_input, M_synsets_input, modelMF.input], modelInMMF)
+
+    U_input_encoded = LSTM_layer(U_input_embedded)
+    U_input_encoded = Permute((2, 1), input_shape=(max_lens[1], dim,), name="U_permute")(U_input_encoded)
+    modelU = Model([U_scratch_input,U_tokens_input,U_synsets_input], U_input_encoded)
+    modelInUUF = Concatenate(name="concatenateUUF")([modelU.output, modelUF.output])
+    modelUUF = Model([U_scratch_input, U_tokens_input, U_synsets_input, modelUF.input], modelInUUF)
+
+    C1_input_encoded = LSTM_layer(C1_input_embedded)
+    C1_input_encoded = Permute((2, 1), input_shape=(max_lens[2], dim,), name="C1_permute")(C1_input_encoded)
+    C1_input_encoded = Lambda(reduce_sum_layer, output_shape=output_reduce_sum_layer, name="C1_reduce_sum")(C1_input_encoded)
+    modelC1 = Model([C1_scratch_input,C1_tokens_input,C1_synsets_input], C1_input_encoded)
+
+    C2_input_encoded = LSTM_layer(C2_input_embedded)
+    C2_input_encoded = Permute((2, 1), input_shape=(max_lens[3], dim,), name="C2_permute")(C2_input_encoded)
+    C2_input_encoded = Lambda(reduce_sum_layer, output_shape=output_reduce_sum_layer, name="C2_reduce_sum")(C2_input_encoded)
+    modelC2 = Model([C2_scratch_input,C2_tokens_input,C2_synsets_input], C2_input_encoded)
+
+    C3_input_encoded = LSTM_layer(C3_input_embedded)
+    C3_input_encoded = Permute((2, 1), input_shape=(max_lens[4], dim,), name="C3_permute")(C3_input_encoded)
+    C3_input_encoded = Lambda(reduce_sum_layer, output_shape=output_reduce_sum_layer, name="C3_reduce_sum")(C3_input_encoded)
+    modelC3 = Model([C3_scratch_input,C3_tokens_input,C3_synsets_input], C3_input_encoded)
+
+    C4_input_encoded = LSTM_layer(C4_input_embedded)
+    C4_input_encoded = Permute((2, 1), input_shape=(max_lens[5], dim,), name="C4_permute")(C4_input_encoded)
+    C4_input_encoded = Lambda(reduce_sum_layer, output_shape=output_reduce_sum_layer, name="C4_reduce_sum")(C4_input_encoded)
+    modelC4 = Model([C4_scratch_input,C4_tokens_input,C4_synsets_input], C4_input_encoded)
+
+    modelIna = Lambda(similarity, output_shape=output_similarity,name="similarityMU")([modelMMF.output, modelUUF.output])
+    modelIna = Lambda(reduce_max_layer, output_shape=output_reduce_max_layer, name="a_reduce_max")(modelIna)
+    modelIna = Permute((2, 1), input_shape=(max_lens[0]+1, 1,), name="a_permute")(modelIna)
+    modelIna = Dense(max_lens[0]+1,activation="softmax",name="softmax_a")(modelIna)
+    modela = Model([M_scratch_input,M_tokens_input,M_synsets_input,modelMF.input,U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input], modelIna)
+
+    modelInm = Lambda(answerer, output_shape=output_answerer,name="answerer") ([modela.output, modelMMF.output])
+    modelInm = Lambda(reduce_sum_layer, output_shape=output_reduce_sum_layer, name="m_reduce_sum") (modelInm)
+    modelm = Model([M_scratch_input,M_tokens_input,M_synsets_input, modelMF.input, U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input], modelInm)
+
+    modelInC1 = Lambda(similarity, output_shape=output_similarity,name="similaritymC1")([modelm.output,modelC1.output])
+    modelIn1 = Model([M_scratch_input,M_tokens_input,M_synsets_input,modelMF.input,
+                                      U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input,
+                                      C1_scratch_input,C1_tokens_input,C1_synsets_input], modelInC1)
+    modelInC2 = Lambda(similarity, output_shape=output_similarity,name="similaritymC2")([modelm.output,modelC2.output])
+    modelIn2 = Model([M_scratch_input,M_tokens_input,M_synsets_input,modelMF.input,
+                                      U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input,
+                                      C2_scratch_input,C2_tokens_input,C2_synsets_input], modelInC2)
+    modelInC3 = Lambda(similarity, output_shape=output_similarity,name="similaritymC3")([modelm.output,modelC3.output])
+    modelIn3 = Model([M_scratch_input,M_tokens_input,M_synsets_input,modelMF.input,
+                                      U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input,
+                                      C3_scratch_input,C3_tokens_input,C3_synsets_input], modelInC3)
+    modelInC4 = Lambda(similarity, output_shape=output_similarity,name="similaritymC4")([modelm.output,modelC4.output])
+    modelIn4 = Model([M_scratch_input,M_tokens_input,M_synsets_input,modelMF.input,
+                                      U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input,
+                                      C4_scratch_input,C4_tokens_input,C4_synsets_input], modelInC4)
+
+    modelIn = Concatenate(name = "concatenate")([modelIn1.output,modelIn2.output,modelIn3.output,modelIn4.output])
+    modelIn = Flatten()(modelIn)
+    modelIn = Dense(4, activation="softmax",name="softmax_y") (modelIn)
+    model = Model([M_scratch_input,M_tokens_input,M_synsets_input,modelMF.input,
+                                   U_scratch_input,U_tokens_input,U_synsets_input,modelUF.input,
+                                   C1_scratch_input,C1_tokens_input,C1_synsets_input,
+                                   C2_scratch_input,C2_tokens_input,C2_synsets_input,
+                                   C3_scratch_input,C3_tokens_input,C3_synsets_input,
+                                   C4_scratch_input,C4_tokens_input,C4_synsets_input], modelIn)
+    return model
+
