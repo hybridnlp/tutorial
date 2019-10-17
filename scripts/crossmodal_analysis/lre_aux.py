@@ -8,13 +8,14 @@ import numpy as np
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential, Model
-from keras.layers import InputLayer, Conv2D, BatchNormalization, MaxPooling2D, Flatten, Embedding, Concatenate, Conv1D, MaxPooling1D, Multiply, Dense
+from keras.layers import InputLayer, Conv2D, BatchNormalization, MaxPooling2D, Flatten, Embedding, Concatenate, Conv1D, MaxPooling1D, Multiply, Dense, Add, Input, Reshape, LSTM, Lambda, Permute
 from keras.optimizers import Adam
 from keras.utils import plot_model
 import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 import pickle
+
 
 def get_captions(list_captions_tokens, list_captions_synsets):
     MAX_SEQ_LEN = 1000
