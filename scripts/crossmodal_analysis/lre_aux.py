@@ -217,11 +217,10 @@ def get_vis_model():
     modelVisualize.add(MaxPooling1D(5))
     modelVisualize.add(Conv1D(512, 5, activation="relu"))
     modelVisualize.add(MaxPooling1D(35))
-    modelVisualize.add(Reshape(1,1,512))
 
     for i in range(len(modelEmbeddings.layers)):
         modelEmbeddings.layers[i].set_weights(modelC.layers[i].get_weights())
-    for j in range(len(modelVisualize.layers)-1):
+    for j in range(len(modelVisualize.layers)):
         modelVisualize.layers[j].set_weights(modelC.layers[j+len(modelEmbeddings.layers)].get_weights())
 
     return modelEmbeddings, modelVisualize, modelC     
