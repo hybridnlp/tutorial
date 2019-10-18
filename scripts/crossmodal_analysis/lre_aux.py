@@ -129,6 +129,40 @@ def get_model():
 
     return modelFigures, modelCaptions, model
 
+def get_vis_model():
+    with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
+        tokenizer_tokens = pickle.load(handle)
+
+    with open('tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
+        tokenizer_synsets = pickle.load(handle)
+    
+    modelC = lre_aux.get_model()[1]
+    
+    modelEmbScratch = Sequential()
+    modelEmbScratch.add(Embedding(len(tokenizer_tokens.word_index)+1, DIM, embeddings_initializer="uniform", input_length=MAX_SEQ_LEN, trainable=True))
+    modelEmbVecsiTokens = Sequential()
+    modelEmbVecsiTokens.add(Embedding(len(tokenizer_tokens.word_index) + 1, DIM, weights = [embedding_matrix_tokens], input_length = MAX_SEQ_LEN, trainable = False))
+    modelEmbVecsiSynsets = Sequential()
+    modelEmbVecsiSynsets.add(Embedding(len(tokenizer_synsets.word_index) + 1, DIM, weights = [embedding_matrix_synsets], input_length = MAX_SEQ_LEN, trainable = False))
+    modelEmbMerge = Concatenate()([modelEmbScratch.output,modelEmbVecsiTokens.output,modelEmbVecsiSynsets.output])
+    modelEmbeddings = Model([modelEmbScratch.input,modelEmbVecsiTokens.input,modelEmbVecsiSynsets.input], modelEmbMerge)
+
+    modelVisualize = Sequential()
+    modelVisualize.add(InputLayer((MAX_SEQ_LEN,DIM*3,)))
+    modelVisualize.add(Conv1D(512, 5, activation="relu"))
+    modelVisualize.add(MaxPooling1D(5))
+    modelVisualize.add(Conv1D(512, 5, activation="relu"))
+    modelVisualize.add(MaxPooling1D(5))
+    modelVisualize.add(Conv1D(512, 5, activation="relu"))
+    modelVisualize.add(MaxPooling1D(35))
+
+    for i in range(len(modelEmbeddings.layers)):
+        modelEmbeddings.layers[i].set_weights(modelC.layers[i].get_weights())
+    for j in range(len(modelVisualize.layers)):
+        modelVisualize.layers[j].set_weights(modelC.layers[j+len(modelEmbeddings.layers)].get_weights())
+
+    return modelEmbeddings, modelVisualize, modelC     
+
 def similarity(x):
     return tf.matmul(x[0],x[1], transpose_a=True)
 
