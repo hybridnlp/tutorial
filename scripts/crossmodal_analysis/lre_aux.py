@@ -136,7 +136,7 @@ def get_vis_model():
     with open('tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
         tokenizer_synsets = pickle.load(handle)
     
-    modelC = lre_aux.get_model()[1]
+    modelC = get_model()[1]
     
     modelEmbScratch = Sequential()
     modelEmbScratch.add(Embedding(len(tokenizer_tokens.word_index)+1, DIM, embeddings_initializer="uniform", input_length=MAX_SEQ_LEN, trainable=True))
