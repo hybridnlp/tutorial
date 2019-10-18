@@ -129,6 +129,30 @@ def get_model():
 
     return modelFigures, modelCaptions, model
 
+def grad_cam(input_model, image, cls, layer_name):
+    """GradCAM method for visualizing input saliency."""
+    y_c = input_model.output[0, 0, cls]
+    conv_output = input_model.layers[layer_name].output
+    grads = K.gradients(y_c, conv_output)[0]
+    # Normalize if necessary
+    # grads = normalize(grads)
+    gradient_function = K.function([input_model.input], [conv_output, grads])
+
+    output, grads_val = gradient_function([image])
+    output, grads_val = output[0, :], grads_val[0, :, :]
+
+    weights = np.mean(grads_val, axis=(0, 1))
+    cam = np.dot(output, weights)
+    
+
+    cam = cv2.resize(cam, (300, 1000))
+    cam = np.maximum(cam, 0)
+    cam = cam / cam.max()
+    
+    
+    
+    return cam
+
 def get_vis_model():
     with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
         tokenizer_tokens = pickle.load(handle)
