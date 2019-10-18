@@ -130,6 +130,9 @@ def get_model():
     return modelFigures, modelCaptions, model
 
 def get_vis_model():
+    DIM = 100
+    MAX_SEQ_LEN = 1000
+
     with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
         tokenizer_tokens = pickle.load(handle)
 
