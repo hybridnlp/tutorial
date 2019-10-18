@@ -160,6 +160,43 @@ def get_vis_model():
 
     with open('tutorial/datasamples/tokenizer_synsets.pickle', 'rb') as handle:
         tokenizer_synsets = pickle.load(handle)
+
+    tokenizers = [tokenizer_tokens, tokenizer_synsets]
+    
+    EMB_FILE = "./tutorial/datasamples/scigraph_wordnet.tsv"
+    DIM = 100
+    MAX_SEQ_LEN = 1000
+
+    file = open(EMB_FILE, "r", encoding="utf-8", errors="surrogatepass")
+    embeddings_index_tokens = {}
+    embeddings_index_synsets = {}
+
+    for line in file:
+      values = line.split()
+      comp_len = len(values)-DIM
+      word = "+".join(values[0:comp_len])
+      if (line.startswith("wn31")):
+        vector = np.asarray(values[comp_len:], dtype='float32')
+        embeddings_index_synsets[word] = vector
+      else:
+        if (line.startswith("grammar#")):
+          continue
+        else:
+          vector = np.asarray(values[comp_len:], dtype='float32')
+          embeddings_index_tokens[word] = vector
+    file.close()
+
+    embedding_indexes = [embeddings_index_tokens, embeddings_index_synsets]
+
+    embedding_matrices = []
+    for tok_i in range(len(tokenizers)):
+      embedding_matrix = np.zeros((len(tokenizers[tok_i].word_index) + 1, DIM))
+      for word, i in tokenizers[tok_i].word_index.items():
+        embedding_vector = embedding_indexes[tok_i].get(word)
+        if embedding_vector is not None:
+          embedding_matrix[i] = embedding_vector
+      embedding_matrices.append(embedding_matrix)
+    embedding_matrix_tokens, embedding_matrix_synsets = embedding_matrices
     
     modelC = get_model()[1]
     
