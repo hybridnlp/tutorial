@@ -154,7 +154,35 @@ def get_model():
 
     return modelFigures, modelCaptions, model
 
-def get_vis_model():
+def get_figure_vis_model():
+    modelF = Sequential()
+    modelF.add(InputLayer(input_shape=(224,224,3)))
+    modelF.add(Conv2D(64, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(Conv2D(64, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(MaxPooling2D(2))
+    modelF.add(Conv2D(128, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(Conv2D(128, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(MaxPooling2D(2))
+    modelF.add(Conv2D(256, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(Conv2D(256, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(MaxPooling2D(2))
+    modelF.add(Conv2D(512, (3,3), padding = "same", activation="relu"))
+    modelF.add(BatchNormalization())
+    modelF.add(Conv2D(512, (3,3), padding = "same", activation="relu")) 
+    modelF.add(BatchNormalization())
+    modelF.add(MaxPooling2D((28,28),2))
+    modelF.add(Flatten())
+    modelF.load_weights("./tutorial/datasamples/modelFigures-qualitative.h5")
+
+    return modelF
+
+def get_caption_vis_model():
     with open('tutorial/datasamples/tokenizer_tokens.pickle', 'rb') as handle:
         tokenizer_tokens = pickle.load(handle)
 
