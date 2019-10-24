@@ -43,21 +43,21 @@ pages = {148}}
 **_Ronald Denaux and Jose Manuel Gomez-Perez. 2019. Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364445_** 
 
 @inproceedings{embrela19,
- author = {Gomez-Perez, Jose Manuel and Ortega, Raul},
- title = {Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings},
- booktitle = {Proceedings of the 10th International Conference on Knowledge Capture},
- series = {K-CAP '19},
- year = {2019},
- isbn = {978-1-4503-7008-0/19/11},
- location = {Marina del Rey, CA, USA},
- pages = {},
- numpages = {8},
- url = {},
- doi = {https://doi.org/10.1145/3360901.3364420},
- acmid = {},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {scientific figures, figure-caption correspondence, knowledge graphs
+author = {Gomez-Perez, Jose Manuel and Ortega, Raul},
+title = {Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings},
+booktitle = {Proceedings of the 10th International Conference on Knowledge Capture},
+series = {K-CAP '19},
+year = {2019},
+isbn = {978-1-4503-7008-0/19/11},
+location = {Marina del Rey, CA, USA},
+pages = {},
+numpages = {8},
+url = {},
+doi = {https://doi.org/10.1145/3360901.3364420},
+acmid = {},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {embedding evaluation, lexico-semantic relations, knowledge graphs}
 
 **_Jose Manuel Gomez-Perez and Raul Ortega. 2019. Look, Read and Enrich. Learning from Scientific Figures and their Captions. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364420_**
 
