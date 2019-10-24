@@ -29,16 +29,16 @@ doi = {10.3233/SW-190361}}
 **_Andres Garcia-Silva, Cristian Berrio and Jose Manuel Gomez-Perez. 2019. An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection. RepL4NLP@ACL 2019: 148-155_**
 
 @inproceedings{garcia-silva-etal-2019-empirical,
-title = "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
-author = "Garcia-Silva, Andres  and Berrio, Cristian  and Gomez-Perez, Jose Manuel",
-booktitle = "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
-month = aug,
-year = "2019",
-address = "Florence, Italy",
-publisher = "Association for Computational Linguistics",
-url = "https://www.aclweb.org/anthology/W19-4317",
-doi = "10.18653/v1/W19-4317",
-pages = "148"}
+title = {An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection},
+author = {Garcia-Silva, Andres  and Berrio, Cristian  and Gomez-Perez, Jose Manuel},
+booktitle = {Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)},
+month = {August},
+year = {2019},
+address = {Florence, Italy},
+publisher = {Association for Computational Linguistics},
+url = {ttps://www.aclweb.org/anthology/W19-4317},
+doi = {10.18653/v1/W19-4317},
+pages = {148}}
 
 **_Ronald Denaux and Jose Manuel Gomez-Perez. 2019. Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364445_** 
 
@@ -57,7 +57,7 @@ pages = "148"}
  acmid = {},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {scientific figures, figure-caption correspondence, knowledge g
+ keywords = {scientific figures, figure-caption correspondence, knowledge graphs
 
 **_Jose Manuel Gomez-Perez and Raul Ortega. 2019. Look, Read and Enrich. Learning from Scientific Figures and their Captions. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364420_**
 
@@ -76,7 +76,7 @@ pages = "148"}
  acmid = {},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {scientific figures, figure-caption correspondence, kno
+ keywords = {scientific figures, figure-caption correspondence, knowledge graphs, transfer learning, multimodal machine comprehension}}
   
 ## Acknowledgements
 We gratefully acknowledge the EU Horizon 2020 programme, under grants European Language Grid-825627 and Co-inform-770302, for their support to produce the current version of this tutorial. We are also thankful to previous projects DANTE-700367, TRIVALENT-740934 and GRESLADIX-IDI-20160805.
