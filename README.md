@@ -40,7 +40,7 @@ url = {ttps://www.aclweb.org/anthology/W19-4317},
 doi = {10.18653/v1/W19-4317},  
 pages = {148}}  
 
-**_Ronald Denaux and Jose Manuel Gomez-Perez. 2019. Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364445_** 
+**_Ronald Denaux and Jose Manuel Gomez-Perez. 2019. Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364445_**
 
 @inproceedings{embrela19,  
 author = {Gomez-Perez, Jose Manuel and Ortega, Raul},  
