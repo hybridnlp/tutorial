@@ -57,7 +57,7 @@ doi = {https://doi.org/10.1145/3360901.3364420},
 acmid = {},
 publisher = {ACM},
 address = {New York, NY, USA},
-keywords = {embedding evaluation, lexico-semantic relations, knowledge graphs}
+keywords = {embedding evaluation, lexico-semantic relations, knowledge graphs}}
 
 **_Jose Manuel Gomez-Perez and Raul Ortega. 2019. Look, Read and Enrich. Learning from Scientific Figures and their Captions. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364420_**
 
