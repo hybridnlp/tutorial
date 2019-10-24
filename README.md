@@ -29,18 +29,16 @@ doi = {10.3233/SW-190361}}
 **_Andres Garcia-Silva, Cristian Berrio and Jose Manuel Gomez-Perez. 2019. An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection. RepL4NLP@ACL 2019: 148-155_**
 
 @inproceedings{garcia-silva-etal-2019-empirical,
-    title = "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
-    author = "Garcia-Silva, Andres  and
-      Berrio, Cristian  and
-      Gomez-Perez, Jose Manuel",
-    booktitle = "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
-    month = aug,
-    year = "2019",
-    address = "Florence, Italy",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/W19-4317",
-    doi = "10.18653/v1/W19-4317",
-    pages = "148"}
+title = "An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection",
+author = "Garcia-Silva, Andres  and Berrio, Cristian  and Gomez-Perez, Jose Manuel",
+booktitle = "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+month = aug,
+year = "2019",
+address = "Florence, Italy",
+publisher = "Association for Computational Linguistics",
+url = "https://www.aclweb.org/anthology/W19-4317",
+doi = "10.18653/v1/W19-4317",
+pages = "148"}
 
 **_Ronald Denaux and Jose Manuel Gomez-Perez. 2019. Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings. In Proceedings of the 10th international conference on Knowledge capture (K-CAP '19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364445_** 
 
