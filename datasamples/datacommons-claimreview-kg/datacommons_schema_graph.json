@@ -1,0 +1,60 @@
+{
+  "edges" : [ {
+    "src-node" : "claim",
+    "tgt-node" : "author",
+    "meta" : {
+      "weight" : 0.7,
+      "explanation" : "The credibility of an author is based on the credibility of his claims",
+      "name" : "hasAuthor"
+    }
+  }, {
+    "src-node" : "author",
+    "tgt-node" : "claim",
+    "meta" : {
+      "weight" : 0.5,
+      "explanation" : "Credibility of a claim depends on who claims it",
+      "name" : "AuthorOf"
+    }
+  }, {
+    "src-node" : "claim",
+    "tgt-node" : "publisherDomain",
+    "meta" : {
+      "weight" : 0.7,
+      "explanation" : "Credibility of the publisher domain depends on the credibility of its claims",
+      "name" : "published_in"
+    }
+  }, {
+    "src-node" : "publisherDomain",
+    "tgt-node" : "claim",
+    "meta" : {
+      "weight" : 0.5,
+      "explanation" : "Credibility of a claim depends on who publishes it",
+      "name" : "published"
+    }
+  }, {
+    "src-node" : "claim",
+    "tgt-node" : "article",
+    "meta" : {
+      "weight" : 0.7,
+      "explanation" : "The credibility of an article depends on the credibility of the credibility of its claims",
+      "name" : "appears_in"
+    }
+  }, {
+    "src-node" : "article",
+    "tgt-node" : "claim",
+    "meta" : {
+      "weight" : 0.5,
+      "explanation" : "If an article is not credible, it affects to the credibility of the claims",
+      "name" : "published"
+    }
+  }, {
+    "src-node" : "claimReview_altName",
+    "tgt-node" : "claim",
+    "meta" : {
+      "weight" : 1.0,
+      "explanation" : "ClaimReview_altName is the source of credibility",
+      "name" : "is_reviewAltNameOf"
+    }
+  }
+  ]
+}

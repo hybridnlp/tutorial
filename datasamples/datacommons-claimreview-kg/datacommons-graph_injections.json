@@ -1,0 +1,33 @@
+{
+    "injection": {
+        "Wrong. Kamel Daoud reacted to the news and denied it": 1.0,
+        "Three Pinocchios": 0.8,
+        "MISLEADING": 0.75,
+        "FALSE": 1.0,
+        "Sesat": 0.75,
+        "Falso": 1.0,
+        "Error": 0.0,
+        "Partial error": 0.25,
+        "Wrong. The doctor was sentenced to 18 months in prison, including 6 farms.": 0.75,
+        "False": 0.4,
+        "We Explain the Research": 0.5,
+        "To know is to see the face of God": 0.33333333333333337,
+        "THis is custom text": 0.5,
+        "Pants on Fire": 0.4444444444444444,
+        "Mostly False": 0.6666666666666667,
+        "Who, really... can ever know?": 1.0,
+        "Half True": 0.7777777777777778,
+        "Half true": 0.5,
+        "Stunt ad makes false claim": 0.5,
+        "Ryan Allowed Them": 0.5,
+        "This is misleading": 0.75,
+        "False.": 1.0,
+        "True": 0.0,
+        "This is misleading.": 0.75,
+        "This is exaggerated.": 0.75,
+        "This is misleading. ": 0.75,
+        "True.": 0.0,
+        "Maybe.": 0.5,
+        "False. ": 1.0
+    }
+}
