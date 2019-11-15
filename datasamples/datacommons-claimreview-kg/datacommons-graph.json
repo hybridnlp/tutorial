@@ -1,0 +1,3136 @@
+{
+    "edges": [
+        {
+            "src-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "tgt-node": "Oumma",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Oumma",
+            "tgt-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "tgt-node": "oumma.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "oumma.com",
+            "tgt-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "tgt-node": "https//oumma.com/kamel-daoud-condamne-en-algerie-pour-coups-et-blessures-contre-sa-femme/",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//oumma.com/kamel-daoud-condamne-en-algerie-pour-coups-et-blessures-contre-sa-femme/",
+            "tgt-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Wrong. Kamel Daoud reacted to the news and denied it",
+            "tgt-node": "Kamel Daoud Sentenced in Algeria for Injuries on His Wife",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "tgt-node": "Donald Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald Trump",
+            "tgt-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "tgt-node": "www.washingtonpost.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.washingtonpost.com",
+            "tgt-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "tgt-node": "https//www.washingtonpost.com/video/world/trump-confirms-sending-troops-to-saudi-arabia-amid-syria-withdrawal/2019/10/18/b3201a25-931b-4d57-8dda-637f202a34d1_video.html",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.washingtonpost.com/video/world/trump-confirms-sending-troops-to-saudi-arabia-amid-syria-withdrawal/2019/10/18/b3201a25-931b-4d57-8dda-637f202a34d1_video.html",
+            "tgt-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Three Pinocchios",
+            "tgt-node": "\"Saudi Arabia is paying for 100 percent of the cost, including the cost of our s",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\u0c35\u0c40 \u0c30\u0c4d \u0c38\u0c3e \u0c35 \u0c30\u0c4d \u0c15 \u0c30\u0c4d 1857, PAHs, PAHs, PAHs, PAHs, PAHs, PAHs.",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "\u0c35\u0c40 \u0c30\u0c4d \u0c38\u0c3e \u0c35 \u0c30\u0c4d \u0c15 \u0c30\u0c4d 1857, PAHs, PAHs, PAHs, PAHs, PAHs, PAHs.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "MISLEADING",
+            "tgt-node": "\u0c35\u0c40 \u0c30\u0c4d \u0c38\u0c3e \u0c35 \u0c30\u0c4d \u0c15 \u0c30\u0c4d 1857, PAHs, PAHs, PAHs, PAHs, PAHs, PAHs.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\u0c2d\u0c3e \u0c30 \u0c24 \u0c09 \u0c2a \u0c30\u0c3e \u0c1f\u0c4d \u0c30 \u0c2a \u0c37\u0c4d-PAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIP",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "\u0c2d\u0c3e \u0c30 \u0c24 \u0c09 \u0c2a \u0c30\u0c3e \u0c1f\u0c4d \u0c30 \u0c2a \u0c37\u0c4d-PAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIP",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "\u0c2d\u0c3e \u0c30 \u0c24 \u0c09 \u0c2a \u0c30\u0c3e \u0c1f\u0c4d \u0c30 \u0c2a \u0c37\u0c4d-PAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIPAINIP",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Modi Government  has cleared India's debt to world bank.",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "Modi Government  has cleared India's debt to world bank.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "Modi Government  has cleared India's debt to world bank.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "tgt-node": "Beredar di media sosial",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Beredar di media sosial",
+            "tgt-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "tgt-node": "twitter.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "twitter.com",
+            "tgt-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "tgt-node": "https//twitter.com/mochamadarip/status/1185856393435209728",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//twitter.com/mochamadarip/status/1185856393435209728",
+            "tgt-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Sesat",
+            "tgt-node": "Security officials found a car with explosives during Jokowi and Ma'ruf Amin ina",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "blonde leaves are known to be useful against leukemia and breast cancer",
+            "tgt-node": "Post em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Post em redes sociais",
+            "tgt-node": "blonde leaves are known to be useful against leukemia and breast cancer",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "blonde leaves are known to be useful against leukemia and breast cancer",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Error",
+            "tgt-node": "According to the Internet, \"Papaya is the king of many medicines, and the US Dep",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Partial error",
+            "tgt-node": "\"New German Government Regulations In the future, the government will all eat ve",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Error",
+            "tgt-node": "\"Don't put your cell phone in the vicinity of a kitchen, TV, washing machine, mi",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Error",
+            "tgt-node": "The Internet says Duterte plays Taiwanese women journalists... A Taiwanese femal",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Error",
+            "tgt-node": "The Internet news film \"Mob Flash Fundraising Is Actually Robbing People and For",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Error",
+            "tgt-node": "\"One lemon, two ginger, three garlic, a bottle of 500c.c... After a month... We ",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "N T I C I A M A R A V I L H O S A!!! Bolsonaro approved this law. We're going to",
+            "tgt-node": "Boato na internet",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Boato na internet",
+            "tgt-node": "N T I C I A M A R A V I L H O S A!!! Bolsonaro approved this law. We're going to",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "N T I C I A M A R A V I L H O S A!!! Bolsonaro approved this law. We're going to",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "tgt-node": "CNLD",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "CNLD",
+            "tgt-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "tgt-node": "www.tsa-algerie.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.tsa-algerie.com",
+            "tgt-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "tgt-node": "https//www.tsa-algerie.com/un-medecin-condamne-a-sept-ans-de-prison-pour-atteinte-a-lunite-nationale/",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.tsa-algerie.com/un-medecin-condamne-a-sept-ans-de-prison-pour-atteinte-a-lunite-nationale/",
+            "tgt-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Wrong. The doctor was sentenced to 18 months in prison, including 6 farms.",
+            "tgt-node": "A doctor sentenced to seven years in prison for \"undermining national unity\"",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "PADRE REVEALS FORTUNE LULA DEPOSITED IN THE VATICAN. Lula has EUR 243 million de",
+            "tgt-node": "V\u00eddeo em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "V\u00eddeo em redes sociais",
+            "tgt-node": "PADRE REVEALS FORTUNE LULA DEPOSITED IN THE VATICAN. Lula has EUR 243 million de",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "PADRE REVEALS FORTUNE LULA DEPOSITED IN THE VATICAN. Lula has EUR 243 million de",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "VERY SAD!! ... FAMILY!!! Today it is beginning to debate the initiative of the l",
+            "tgt-node": "Post em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Post em redes sociais",
+            "tgt-node": "VERY SAD!! ... FAMILY!!! Today it is beginning to debate the initiative of the l",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "VERY SAD!! ... FAMILY!!! Today it is beginning to debate the initiative of the l",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "A hurricane category 1 was formed some 500 kilometers from the south coast of Br",
+            "tgt-node": "Post em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Post em redes sociais",
+            "tgt-node": "A hurricane category 1 was formed some 500 kilometers from the south coast of Br",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "A hurricane category 1 was formed some 500 kilometers from the south coast of Br",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Passing a friend's message Guys, help out there! 20-day bull terrier chicks. The",
+            "tgt-node": "Post em redes sociais e mensagem no WhatsApp",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Post em redes sociais e mensagem no WhatsApp",
+            "tgt-node": "Passing a friend's message Guys, help out there! 20-day bull terrier chicks. The",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "Passing a friend's message Guys, help out there! 20-day bull terrier chicks. The",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "tgt-node": "Social media posts",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Social media posts",
+            "tgt-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "tgt-node": "www.facebook.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.facebook.com",
+            "tgt-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "tgt-node": "https//www.facebook.com/DTINMP/photos/a.1885256891712569/2388207704750816/?type=3&theater",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.facebook.com/DTINMP/photos/a.1885256891712569/2388207704750816/?type=3&theater",
+            "tgt-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "\u201cThe look of the White House Italian translator as Trump says President Mozzarel",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "tgt-node": "Shabab Alam",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Shabab Alam",
+            "tgt-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "tgt-node": "www.facebook.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.facebook.com",
+            "tgt-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "tgt-node": "https//www.facebook.com/photo.php?fbid=449404552345738&set=a.105639406722256&type=3&theater&ifg=1",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.facebook.com/photo.php?fbid=449404552345738&set=a.105639406722256&type=3&theater&ifg=1",
+            "tgt-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "Claim HDFC bank is declaring that it will only compensate one lakh rupees if the",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "tgt-node": "Sanjay Khare",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Sanjay Khare",
+            "tgt-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "tgt-node": "www.facebook.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.facebook.com",
+            "tgt-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "tgt-node": "https//www.facebook.com/sanjay.khare.7165/videos/173756693799475/",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.facebook.com/sanjay.khare.7165/videos/173756693799475/",
+            "tgt-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "Claim congress MLA Naseem Khan says Pakistan Zindabad",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "*END OF GENEALOGIC TREE*\n_Luiz Fernando Veroso_\n\n*Mom, I'm getting married!*\nSwe",
+            "tgt-node": "Texto em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Texto em redes sociais",
+            "tgt-node": "*END OF GENEALOGIC TREE*\n_Luiz Fernando Veroso_\n\n*Mom, I'm getting married!*\nSwe",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "*END OF GENEALOGIC TREE*\n_Luiz Fernando Veroso_\n\n*Mom, I'm getting married!*\nSwe",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "tgt-node": "Donald Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald Trump",
+            "tgt-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "tgt-node": "www.c-span.org",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.c-span.org",
+            "tgt-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "tgt-node": "https//www.c-span.org/video/?463254-1/president-trump-calls-nation-condemn-racism-bigotry-white-supremacy-mass-shootings",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.c-span.org/video/?463254-1/president-trump-calls-nation-condemn-racism-bigotry-white-supremacy-mass-shootings",
+            "tgt-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "We Explain the Research",
+            "tgt-node": "\"Mental illness and hatred pulls the trigger, not the gun.\"",
+            "meta": {
+                "weight": 0.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "A bill signed by former President Barack Obama allows \"the media\" to get \"away w",
+            "tgt-node": "Social media posts",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Social media posts",
+            "tgt-node": "A bill signed by former President Barack Obama allows \"the media\" to get \"away w",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "A bill signed by former President Barack Obama allows \"the media\" to get \"away w",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Pope Francis says Jesus Pecou \u2014 And That God is A Barbaro \u2014 So let's pray to Mar",
+            "tgt-node": "V\u00eddeo no Youtube",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "V\u00eddeo no Youtube",
+            "tgt-node": "Pope Francis says Jesus Pecou \u2014 And That God is A Barbaro \u2014 So let's pray to Mar",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "Pope Francis says Jesus Pecou \u2014 And That God is A Barbaro \u2014 So let's pray to Mar",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "This is a statement.",
+            "tgt-node": "Justin Reese",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Justin Reese",
+            "tgt-node": "This is a statement.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "To know is to see the face of God",
+            "tgt-node": "This is a statement.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "What is the meaning of life",
+            "tgt-node": "Justin Reese",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Justin Reese",
+            "tgt-node": "What is the meaning of life",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "THis is custom text",
+            "tgt-node": "What is the meaning of life",
+            "meta": {
+                "weight": 0.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "tgt-node": "cotheories",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "cotheories",
+            "tgt-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "tgt-node": "www.instagram.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.instagram.com",
+            "tgt-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "tgt-node": "https//www.instagram.com/p/B3kcFNyAyHb/?fbclid=IwAR1YQoavaVusWupxd5ozisg3AawB20JRhuOhoDbTdJWEOT5QfV_cOhXoGYs",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.instagram.com/p/B3kcFNyAyHb/?fbclid=IwAR1YQoavaVusWupxd5ozisg3AawB20JRhuOhoDbTdJWEOT5QfV_cOhXoGYs",
+            "tgt-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "\"In 2018, over 1,100 people died from reactions to the [flu] shot, and some chil",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "tgt-node": "Mick Mulvaney",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Mick Mulvaney",
+            "tgt-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "tgt-node": "www.c-span.org",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.c-span.org",
+            "tgt-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "tgt-node": "https//www.c-span.org/video/?465446-1/mick-mulvaney-defends-withholding-military-aid-ukraine-pending-investigation",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.c-span.org/video/?465446-1/mick-mulvaney-defends-withholding-military-aid-ukraine-pending-investigation",
+            "tgt-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "Says Donald Trump \"will not be profiting\" from the G-7 summit meeting to be held",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "tgt-node": "Eric Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Eric Trump",
+            "tgt-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "tgt-node": "twitter.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "twitter.com",
+            "tgt-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "tgt-node": "https//twitter.com/JasonSCampbell/status/1184292111782424577",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//twitter.com/JasonSCampbell/status/1184292111782424577",
+            "tgt-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Pants on Fire",
+            "tgt-node": "\"When my father became commander in chief of this country, we got out of all int",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "tgt-node": "Democratic National Committee",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Democratic National Committee",
+            "tgt-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "tgt-node": "democrats.org",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "democrats.org",
+            "tgt-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "tgt-node": "https//democrats.org/news/trump-promised-to-bring-jobs-back-to-pennsylvania-and-wisconsin-theyve-lost-the-most-this-year/",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//democrats.org/news/trump-promised-to-bring-jobs-back-to-pennsylvania-and-wisconsin-theyve-lost-the-most-this-year/",
+            "tgt-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Mostly False",
+            "tgt-node": "Says Donald Trump is breaking a campaign pledge to bring manufacturing jobs back",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "tgt-node": "Donald Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald Trump",
+            "tgt-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "tgt-node": "factba.se",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "factba.se",
+            "tgt-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "tgt-node": "https//factba.se/transcript/donald-trump-interview-jeanine-pirro-fox-news-october-12-2019",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//factba.se/transcript/donald-trump-interview-jeanine-pirro-fox-news-october-12-2019",
+            "tgt-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Three Pinocchios",
+            "tgt-node": "\"When I came in, we had no ammunition two and a half years ago.\"",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Jean Wyllys talks are canceled due to lack of students. That I had to call Campu",
+            "tgt-node": "Boato na internet",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Boato na internet",
+            "tgt-node": "Jean Wyllys talks are canceled due to lack of students. That I had to call Campu",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "Jean Wyllys talks are canceled due to lack of students. That I had to call Campu",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I am eating lunch shortly.",
+            "tgt-node": "Justin Reese",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Justin Reese",
+            "tgt-node": "I am eating lunch shortly.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Who, really... can ever know?",
+            "tgt-node": "I am eating lunch shortly.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I was born in a limousine.",
+            "tgt-node": "Justin Reese",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Justin Reese",
+            "tgt-node": "I was born in a limousine.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "To know is to see the face of God",
+            "tgt-node": "I was born in a limousine.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"The City of Austin is dedicating more than $20,000 PER HOMELESS PERSON in Austi",
+            "tgt-node": "Greg Abbott",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Greg Abbott",
+            "tgt-node": "\"The City of Austin is dedicating more than $20,000 PER HOMELESS PERSON in Austi",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Half True",
+            "tgt-node": "\"The City of Austin is dedicating more than $20,000 PER HOMELESS PERSON in Austi",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "tgt-node": "Subhash Sharma Rampal",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Subhash Sharma Rampal",
+            "tgt-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "tgt-node": "www.facebook.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.facebook.com",
+            "tgt-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "tgt-node": "https//www.facebook.com/subhashsharma.rampal.3/videos/1320123394822581/",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.facebook.com/subhashsharma.rampal.3/videos/1320123394822581/",
+            "tgt-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "Claim Nusrat Jahaan performing dhunuchi dance during durga puja",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Prior to Barrionuevo and Vera's pardon, there was a court ruling in Strasbourg t",
+            "tgt-node": "Jos\u00e9 Luis \u00c1balos",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Jos\u00e9 Luis \u00c1balos",
+            "tgt-node": "Prior to Barrionuevo and Vera's pardon, there was a court ruling in Strasbourg t",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "Prior to Barrionuevo and Vera's pardon, there was a court ruling in Strasbourg t",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Rubber bullets are supposed to be banned in Catalonia",
+            "tgt-node": "Pablo Iglesias",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Pablo Iglesias",
+            "tgt-node": "Rubber bullets are supposed to be banned in Catalonia",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Half true",
+            "tgt-node": "Rubber bullets are supposed to be banned in Catalonia",
+            "meta": {
+                "weight": 0.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "It's wrong for a CS MP to say that \"you have to force the violent reaction of th",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "The image of \"protesters helping the police to handcuff\" is not current It's 201",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"Mark Zuckerberg and Facebook just endorsed Donald Trump for re-election.\"",
+            "tgt-node": "Elizabeth Warren",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Elizabeth Warren",
+            "tgt-node": "\"Mark Zuckerberg and Facebook just endorsed Donald Trump for re-election.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Stunt ad makes false claim",
+            "tgt-node": "\"Mark Zuckerberg and Facebook just endorsed Donald Trump for re-election.\"",
+            "meta": {
+                "weight": 0.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "During any medical emergency, flat tyre or in the need of fuel, you can call the",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "During any medical emergency, flat tyre or in the need of fuel, you can call the",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "MISLEADING",
+            "tgt-node": "During any medical emergency, flat tyre or in the need of fuel, you can call the",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Benjamin Netanyahu said proofs about the existence of Ram will be sought from Hi",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "Benjamin Netanyahu said proofs about the existence of Ram will be sought from Hi",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "Benjamin Netanyahu said proofs about the existence of Ram will be sought from Hi",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "RBI is releasing new Rs. 1000 notes and taking back Rs. 2000 notes.",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "RBI is releasing new Rs. 1000 notes and taking back Rs. 2000 notes.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "RBI is releasing new Rs. 1000 notes and taking back Rs. 2000 notes.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "It is not mandatory to use helmets in the municipal corporation boundaries.",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "It is not mandatory to use helmets in the municipal corporation boundaries.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "It is not mandatory to use helmets in the municipal corporation boundaries.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": " Christian couple in UP set on fire by RSS men",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": " Christian couple in UP set on fire by RSS men",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": " Christian couple in UP set on fire by RSS men",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\u0c24\u0c46 \u0c32\u0c02 \u0c17\u0c3e \u0c23\u0c3e \u0c2a\u0c4d \u0c30 \u0c2d\u0c41 \u0c24\u0c4d \u0c35\u0c02, \u0c26, the \u0c38, the \u0c30\u0c3e, the members, the members, the membe",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "\u0c24\u0c46 \u0c32\u0c02 \u0c17\u0c3e \u0c23\u0c3e \u0c2a\u0c4d \u0c30 \u0c2d\u0c41 \u0c24\u0c4d \u0c35\u0c02, \u0c26, the \u0c38, the \u0c30\u0c3e, the members, the members, the membe",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "\u0c24\u0c46 \u0c32\u0c02 \u0c17\u0c3e \u0c23\u0c3e \u0c2a\u0c4d \u0c30 \u0c2d\u0c41 \u0c24\u0c4d \u0c35\u0c02, \u0c26, the \u0c38, the \u0c30\u0c3e, the members, the members, the membe",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\u0c38\u0c41 \u0c15 \u0c28\u0c4d \u0c2f \u0c38 \u0c2e\u0c43 \u0c26\u0c4d \u0c27\u0c3f \u0c2f\u0c4b, \u0c1c,, PAHs, PAHs, PAHs, PAHs, PAHs, PAHs, PAH, PAH, PAH, ",
+            "tgt-node": "SOCIAL MEDIA POST",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "SOCIAL MEDIA POST",
+            "tgt-node": "\u0c38\u0c41 \u0c15 \u0c28\u0c4d \u0c2f \u0c38 \u0c2e\u0c43 \u0c26\u0c4d \u0c27\u0c3f \u0c2f\u0c4b, \u0c1c,, PAHs, PAHs, PAHs, PAHs, PAHs, PAHs, PAH, PAH, PAH, ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "FALSE",
+            "tgt-node": "\u0c38\u0c41 \u0c15 \u0c28\u0c4d \u0c2f \u0c38 \u0c2e\u0c43 \u0c26\u0c4d \u0c27\u0c3f \u0c2f\u0c4b, \u0c1c,, PAHs, PAHs, PAHs, PAHs, PAHs, PAHs, PAH, PAH, PAH, ",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I am human.",
+            "tgt-node": "Justin Reese",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Justin Reese",
+            "tgt-node": "I am human.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "To know is to see the face of God",
+            "tgt-node": "I am human.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I wasn't ever born.",
+            "tgt-node": "Justin Reese",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Justin Reese",
+            "tgt-node": "I wasn't ever born.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "To know is to see the face of God",
+            "tgt-node": "I wasn't ever born.",
+            "meta": {
+                "weight": 0.85,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "tgt-node": "Beredar di Facebook",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Beredar di Facebook",
+            "tgt-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "tgt-node": "www.facebook.com",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.facebook.com",
+            "tgt-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "tgt-node": "https//www.facebook.com/photo.php?fbid=3057164697691992&set=pcb.3057165057691956&type=3&theater",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.facebook.com/photo.php?fbid=3057164697691992&set=pcb.3057165057691956&type=3&theater",
+            "tgt-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Sesat",
+            "tgt-node": "Photos of the brace of sadistics, one of the combustion, of several men called t",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Pope Francis Sentenced for Child Trafficking, Rape and Murder?\n\nThe defendants P",
+            "tgt-node": "Post em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Post em redes sociais",
+            "tgt-node": "Pope Francis Sentenced for Child Trafficking, Rape and Murder?\n\nThe defendants P",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "Pope Francis Sentenced for Child Trafficking, Rape and Murder?\n\nThe defendants P",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "tgt-node": "Donald Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald Trump",
+            "tgt-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "tgt-node": "www.whitehouse.gov",
+            "meta": {
+                "weight": 0.7,
+                "name": "published_in",
+                "explanation": "Credibility of a publisher depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "www.whitehouse.gov",
+            "tgt-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "meta": {
+                "weight": 0.5,
+                "name": "published",
+                "explanation": "Credibility of a claim depends on who publishes it"
+            }
+        },
+        {
+            "src-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "tgt-node": "https//www.whitehouse.gov/briefings-statements/remarks-president-trump-president-mattarella-italian-republic-bilateral-meeting/",
+            "meta": {
+                "weight": 0.7,
+                "name": "appears_in",
+                "explanation": "Credibility of an article depends on the credibility of its claims"
+            }
+        },
+        {
+            "src-node": "https//www.whitehouse.gov/briefings-statements/remarks-president-trump-president-mattarella-italian-republic-bilateral-meeting/",
+            "tgt-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "meta": {
+                "weight": 0.5,
+                "name": "includes_claim",
+                "explanation": "If an article is not credible, it affects to the credibility of the claims"
+            }
+        },
+        {
+            "src-node": "Ryan Allowed Them",
+            "tgt-node": "\"Paul Ryan would never issue a subpoena. ... He had too much respect for our cou",
+            "meta": {
+                "weight": 0.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The flight was peaceful and the landing was a little better. Everyone had to cha",
+            "tgt-node": "V\u00eddeo em redes sociais",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "V\u00eddeo em redes sociais",
+            "tgt-node": "The flight was peaceful and the landing was a little better. Everyone had to cha",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Falso",
+            "tgt-node": "The flight was peaceful and the landing was a little better. Everyone had to cha",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "In El Paso they have close to 2,000 murders right on the other side of the wall.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "In El Paso they have close to 2,000 murders right on the other side of the wall.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading",
+            "tgt-node": "In El Paso they have close to 2,000 murders right on the other side of the wall.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The claim that drugs enter \"through the port of entry\" is \"just a lie.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "The claim that drugs enter \"through the port of entry\" is \"just a lie.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "The claim that drugs enter \"through the port of entry\" is \"just a lie.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "You can't human traffic \"women and girls \u2014 you can't take them through ports of ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "You can't human traffic \"women and girls \u2014 you can't take them through ports of ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "You can't human traffic \"women and girls \u2014 you can't take them through ports of ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Israel's wall is \"99.9 percent effective.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Israel's wall is \"99.9 percent effective.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "True",
+            "tgt-node": "Israel's wall is \"99.9 percent effective.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "My national emergency declaration is not \"precedent\" because \"you have 56 or a l",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "My national emergency declaration is not \"precedent\" because \"you have 56 or a l",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading",
+            "tgt-node": "My national emergency declaration is not \"precedent\" because \"you have 56 or a l",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"I got almost $1.4 billion when I wasn\u2019t supposed to get $1\" for the wall.'",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"I got almost $1.4 billion when I wasn\u2019t supposed to get $1\" for the wall.'",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "\"I got almost $1.4 billion when I wasn\u2019t supposed to get $1\" for the wall.'",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "A border wall \"made a big difference\" in El Paso.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "A border wall \"made a big difference\" in El Paso.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "A border wall \"made a big difference\" in El Paso.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Michael Cohen \"might be the first time someone convicted of lying to Congress ha",
+            "tgt-node": "Jim Jordan",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Jim Jordan",
+            "tgt-node": "Michael Cohen \"might be the first time someone convicted of lying to Congress ha",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "Michael Cohen \"might be the first time someone convicted of lying to Congress ha",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The Steele dossier \"started\" the Russian election interference investigation int",
+            "tgt-node": "Jim Jordan",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Jim Jordan",
+            "tgt-node": "The Steele dossier \"started\" the Russian election interference investigation int",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "The Steele dossier \"started\" the Russian election interference investigation int",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Republicans \"refuse\" to bring anyone indicted in the Mueller investigation befor",
+            "tgt-node": "Stephen Lynch",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Stephen Lynch",
+            "tgt-node": "Republicans \"refuse\" to bring anyone indicted in the Mueller investigation befor",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "Republicans \"refuse\" to bring anyone indicted in the Mueller investigation befor",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "China charges 40% tariffs on American cars \"and we charge them nothing.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "China charges 40% tariffs on American cars \"and we charge them nothing.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "China charges 40% tariffs on American cars \"and we charge them nothing.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The Green New Deal would lead to \"no planes\" and \"no energy.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "The Green New Deal would lead to \"no planes\" and \"no energy.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False",
+            "tgt-node": "The Green New Deal would lead to \"no planes\" and \"no energy.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Then in 1913, they ended tariffs",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Then in 1913, they ended tariffs",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "Then in 1913, they ended tariffs",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Chuck Schumer called for James Comey's resignation \"many times\" as did John Pode",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Chuck Schumer called for James Comey's resignation \"many times\" as did John Pode",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "Chuck Schumer called for James Comey's resignation \"many times\" as did John Pode",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"We never have empty seats\" at Trump rallies.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"We never have empty seats\" at Trump rallies.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "\"We never have empty seats\" at Trump rallies.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "My December Iraq trip was the \"first time I left the White House because I staye",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "My December Iraq trip was the \"first time I left the White House because I staye",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "My December Iraq trip was the \"first time I left the White House because I staye",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Obama \"didn't give one letter\" to Congressional investigators.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Obama \"didn't give one letter\" to Congressional investigators.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "Obama \"didn't give one letter\" to Congressional investigators.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"McCain didn't get the job done for our great vets.\" ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"McCain didn't get the job done for our great vets.\" ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "\"McCain didn't get the job done for our great vets.\" ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I gave McCain \"the kind of funeral that he wanted.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "I gave McCain \"the kind of funeral that he wanted.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "I gave McCain \"the kind of funeral that he wanted.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Under Obama, the budget for tanks was \"zero.\" ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Under Obama, the budget for tanks was \"zero.\" ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "Under Obama, the budget for tanks was \"zero.\" ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "GDP growth was 3.1 percent, \"the first time in 14 years that we cracked 3,\" but ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "GDP growth was 3.1 percent, \"the first time in 14 years that we cracked 3,\" but ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "GDP growth was 3.1 percent, \"the first time in 14 years that we cracked 3,\" but ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "We\u2019re bringing a lot of those car companies back.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "We\u2019re bringing a lot of those car companies back.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "We\u2019re bringing a lot of those car companies back.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The Mueller probe \"found no collusion and no obstruction. \u2026 Total exoneration, c",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "The Mueller probe \"found no collusion and no obstruction. \u2026 Total exoneration, c",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "The Mueller probe \"found no collusion and no obstruction. \u2026 Total exoneration, c",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I'm going to get \"$300 million for the Great Lakes Restoration Initiative, which",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "I'm going to get \"$300 million for the Great Lakes Restoration Initiative, which",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "I'm going to get \"$300 million for the Great Lakes Restoration Initiative, which",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The deductibles on Obamacare are so high, on average $7,000.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "The deductibles on Obamacare are so high, on average $7,000.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "The deductibles on Obamacare are so high, on average $7,000.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"We will always protect patients with pre-existing conditions.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"We will always protect patients with pre-existing conditions.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading. ",
+            "tgt-node": "\"We will always protect patients with pre-existing conditions.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"President Obama had child separation\" and \"I'm the one that stopped it.\" ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"President Obama had child separation\" and \"I'm the one that stopped it.\" ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "\"President Obama had child separation\" and \"I'm the one that stopped it.\" ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The 1994 crime bill \"did not generate mass incarceration.\" ",
+            "tgt-node": "Joe Biden",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Joe Biden",
+            "tgt-node": "The 1994 crime bill \"did not generate mass incarceration.\" ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "The 1994 crime bill \"did not generate mass incarceration.\" ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"I said back in 1987\" that climate change is an existential threat.",
+            "tgt-node": "Joe Biden",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Joe Biden",
+            "tgt-node": "\"I said back in 1987\" that climate change is an existential threat.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "True.",
+            "tgt-node": "\"I said back in 1987\" that climate change is an existential threat.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"I have the most progressive record of anybody running for the \u2014 anybody who wou",
+            "tgt-node": "Joe Biden",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Joe Biden",
+            "tgt-node": "\"I have the most progressive record of anybody running for the \u2014 anybody who wou",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "\"I have the most progressive record of anybody running for the \u2014 anybody who wou",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The Trump tax cut all \"went to the folks at the top and corporations.\"",
+            "tgt-node": "Joe Biden",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Joe Biden",
+            "tgt-node": "The Trump tax cut all \"went to the folks at the top and corporations.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "The Trump tax cut all \"went to the folks at the top and corporations.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "General Motors \"got $192 million in tax breaks\" and \"did nothing\" for laid off w",
+            "tgt-node": "Joe Biden",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Joe Biden",
+            "tgt-node": "General Motors \"got $192 million in tax breaks\" and \"did nothing\" for laid off w",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "General Motors \"got $192 million in tax breaks\" and \"did nothing\" for laid off w",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Net farm income, because our economy is doing so well, is forecast to be nearly ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Net farm income, because our economy is doing so well, is forecast to be nearly ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "Net farm income, because our economy is doing so well, is forecast to be nearly ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"Unions are in favor\" of the USMCA.",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"Unions are in favor\" of the USMCA.",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "\"Unions are in favor\" of the USMCA.",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "My poll numbers \"are going up.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "My poll numbers \"are going up.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "My poll numbers \"are going up.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I named climate change as a major national security crisis in 2016 and \"the mode",
+            "tgt-node": "Bernie Sanders",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Bernie Sanders",
+            "tgt-node": "I named climate change as a major national security crisis in 2016 and \"the mode",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is misleading.",
+            "tgt-node": "I named climate change as a major national security crisis in 2016 and \"the mode",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Trump's budget calls for  \"a $1.5 trillion cut in Medicaid over a 10-year period",
+            "tgt-node": "Bernie Sanders",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Bernie Sanders",
+            "tgt-node": "Trump's budget calls for  \"a $1.5 trillion cut in Medicaid over a 10-year period",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "Trump's budget calls for  \"a $1.5 trillion cut in Medicaid over a 10-year period",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "My 2-cent wealth tax can pay for universal child care, free college tuition and ",
+            "tgt-node": "Elizabeth Warren",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Elizabeth Warren",
+            "tgt-node": "My 2-cent wealth tax can pay for universal child care, free college tuition and ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "Maybe.",
+            "tgt-node": "My 2-cent wealth tax can pay for universal child care, free college tuition and ",
+            "meta": {
+                "weight": 0.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"I supported Massachusetts changing its laws on marijuana.\" ",
+            "tgt-node": "Elizabeth Warren",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Elizabeth Warren",
+            "tgt-node": "\"I supported Massachusetts changing its laws on marijuana.\" ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "This is exaggerated.",
+            "tgt-node": "\"I supported Massachusetts changing its laws on marijuana.\" ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "The United States and Britain are each other's \"largest\" trade partner. ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "The United States and Britain are each other's \"largest\" trade partner. ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "The United States and Britain are each other's \"largest\" trade partner. ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "\"Crime is up\" in London",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "\"Crime is up\" in London",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "True.",
+            "tgt-node": "\"Crime is up\" in London",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "Protests against his visit were \"very small.\" ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "Protests against his visit were \"very small.\" ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "Protests against his visit were \"very small.\" ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I \"predicted\" Brexit at the Trump Turnberry golf resort. ",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "I \"predicted\" Brexit at the Trump Turnberry golf resort. ",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False.",
+            "tgt-node": "I \"predicted\" Brexit at the Trump Turnberry golf resort. ",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        },
+        {
+            "src-node": "I have a 90 percent approval in the Republican party, \"an all-time record.\"",
+            "tgt-node": "Donald J. Trump",
+            "meta": {
+                "weight": 0.7,
+                "name": "hasAuthor",
+                "explanation": "Credibility of an author is based on the credibility of his claims"
+            }
+        },
+        {
+            "src-node": "Donald J. Trump",
+            "tgt-node": "I have a 90 percent approval in the Republican party, \"an all-time record.\"",
+            "meta": {
+                "weight": 0.5,
+                "name": "AuthorOf",
+                "explanation": "Credibility of a claim depends on who claims it"
+            }
+        },
+        {
+            "src-node": "False. ",
+            "tgt-node": "I have a 90 percent approval in the Republican party, \"an all-time record.\"",
+            "meta": {
+                "weight": 1.0,
+                "name": "is_reviewAltnameOf",
+                "explanation": "ClaimReview is the source of credibility"
+            }
+        }
+    ]
+}
