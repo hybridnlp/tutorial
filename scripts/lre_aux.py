@@ -16,7 +16,8 @@ import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 import pickle
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 
 def get_captions(list_captions_tokens, list_captions_synsets):
