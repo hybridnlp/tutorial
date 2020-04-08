@@ -10,16 +10,18 @@ import io
 import os
 from tqdm import tqdm
 import six
-from keras.utils import to_categorical
-from keras.preprocessing.sequence import pad_sequences
-from sklearn.model_selection import train_test_split
-from keras.models import Model, Input
-from keras.layers import Conv1D, MaxPooling1D, Flatten, Reshape, Embedding, Dense, TimeDistributed, Dropout, Bidirectional, LSTM, Concatenate, Lambda
-from keras.callbacks import EarlyStopping
-import keras
 import gc
 import nltk
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+import tensorflow.keras
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.models import Model
+from tensorflow.keras import Input
+from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Reshape, Embedding, Dense, TimeDistributed, Dropout, Bidirectional, LSTM, Concatenate, Lambda
+from keras.callbacks import EarlyStopping
 import urllib
 
 # make sure we have the stopwords data in this environment
@@ -557,7 +559,6 @@ def create_word_embedding_input(in_shape, vocab_size, emb_weights=None,
         model = emb_layer(input)
     elif len(in_shape) == 2:
         def split_ls(x):
-            import tensorflow as tf
             return tf.split(x, num_or_size_splits=2, axis=2)
         split = Lambda(split_ls)(input)
         split0 = Reshape((in_len,))(split[0])
