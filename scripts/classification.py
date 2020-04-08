@@ -21,7 +21,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Model
 from tensorflow.keras import Input
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Reshape, Embedding, Dense, TimeDistributed, Dropout, Bidirectional, LSTM, Concatenate, Lambda
-from keras.callbacks import EarlyStopping
+from tensorflow.keras.callbacks import EarlyStopping
 import urllib
 
 # make sure we have the stopwords data in this environment
