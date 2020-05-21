@@ -5,18 +5,19 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 from PIL import Image
 import numpy as np
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from keras.models import Sequential, Model
-from keras.layers import InputLayer, Conv2D, BatchNormalization, MaxPooling2D, Flatten, Embedding, Concatenate, Conv1D, MaxPooling1D, Multiply, Dense, Add, Input, Reshape, LSTM, Lambda, Permute
-from keras.optimizers import Adam
-from keras.utils import plot_model
-from keras import backend as K
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras.layers import InputLayer, Conv2D, BatchNormalization, MaxPooling2D, Flatten, Embedding, Concatenate, Conv1D, MaxPooling1D, Multiply, Dense, Add, Input, Reshape, LSTM, Lambda, Permute
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import plot_model
+from tensorflow.keras import backend as K
 import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 import pickle
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 
 def get_captions(list_captions_tokens, list_captions_synsets):

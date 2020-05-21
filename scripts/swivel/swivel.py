@@ -61,7 +61,10 @@ import random
 
 import numpy as np
 import scipy.stats
-import tensorflow as tf
+
+# see https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/migrate.ipynb
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 flags = tf.app.flags
 
